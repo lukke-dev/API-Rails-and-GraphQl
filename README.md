@@ -8,12 +8,12 @@
 ![endpoint Graphql](https://i.ibb.co/ZmH31Bg/Captura-de-tela-de-2021-12-26-18-37-34.png)
 
 ## Mutations
-  createUser(input: CreateUserInput)
-  deleteUser(input: DeleteUserInput)
-  updateUser(input: UpdateUserInput)
+  * createUser(input: CreateUserInput)
+  * deleteUser(input: DeleteUserInput)
+  * updateUser(input: UpdateUserInput)
 
 ### A simple query
-gql```
+```
   query {
   users{
     id
