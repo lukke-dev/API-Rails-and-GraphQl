@@ -37,7 +37,6 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'graphiql-rails'
   gem 'sqlite3', '~> 1.4'
 end
 
@@ -45,5 +44,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
+  gem 'graphiql-rails'
   gem "pg", "~> 1.2"
 end
