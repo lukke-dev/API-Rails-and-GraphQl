@@ -14,6 +14,8 @@ RUN gem install bundler -v 2.4.10
 
 RUN bundle install
 
+RUN rails db:migrate
+
 EXPOSE 3000
 
 CMD ["rails", "server", "-b", "0.0.0.0"]
