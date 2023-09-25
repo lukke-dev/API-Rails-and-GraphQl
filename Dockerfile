@@ -15,6 +15,7 @@ RUN gem install bundler -v 2.4.10
 RUN bundle install
 
 RUN rails db:migrate
+RUN rails db:seed
 
 EXPOSE 3000
 
